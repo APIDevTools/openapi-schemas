@@ -1,6 +1,6 @@
 {
   "name": "openapi-schemas",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JSON Schemas for every version of the OpenAPI Specification",
   "keywords": [
     "openapi",
