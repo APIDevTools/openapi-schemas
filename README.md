@@ -1,6 +1,6 @@
 # OpenAPI Specification Schemas
 
-[![Cross-Platform Compatibility](https://apidevtools.org/img/badges/os-badges.svg)](https://travis-ci.com/APIDevTools/openapi-schemas)
+[![Cross-Platform Compatibility](https://apitools.dev/img/badges/os-badges.svg)](https://travis-ci.com/APIDevTools/openapi-schemas)
 [![Build Status](https://api.travis-ci.com/APIDevTools/openapi-schemas.svg?branch=master)](https://travis-ci.com/APIDevTools/openapi-schemas)
 
 [![Coverage Status](https://coveralls.io/repos/github/APIDevTools/openapi-schemas/badge.svg?branch=master)](https://coveralls.io/github/APIDevTools/openapi-schemas)
@@ -100,6 +100,6 @@ Big Thanks To
 --------------------------
 Thanks to these awesome companies for their support of Open Source developers ❤
 
-[![Travis CI](https://apidevtools.org/img/badges/travis-ci.svg)](https://travis-ci.com)
-[![SauceLabs](https://apidevtools.org/img/badges/sauce-labs.svg)](https://saucelabs.com)
-[![Coveralls](https://apidevtools.org/img/badges/coveralls.svg)](https://coveralls.io)
+[![Travis CI](https://apitools.dev/img/badges/travis-ci.svg)](https://travis-ci.com)
+[![SauceLabs](https://apitools.dev/img/badges/sauce-labs.svg)](https://saucelabs.com)
+[![Coveralls](https://apitools.dev/img/badges/coveralls.svg)](https://coveralls.io)
