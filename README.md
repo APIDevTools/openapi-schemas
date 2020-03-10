@@ -13,9 +13,11 @@
 
 This package contains [**the official JSON Schemas**](https://github.com/OAI/OpenAPI-Specification/tree/master/schemas) for every version of Swagger/OpenAPI Specification:
 
-  - [Swagger 1.2](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/1.2.md)
-  - [Swagger 2.0](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md)
-  - [OpenAPI 3.0.x](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.2.md)
+| Version | Schema | Docs
+|---------|--------|-------
+| Swagger 1.2   | [v1.2 schema](https://github.com/OAI/OpenAPI-Specification/tree/master/schemas/v1.2)               | [v1.2 docs](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/1.2.md)
+| Swagger 2.0   | [v2.0 schema](https://github.com/OAI/OpenAPI-Specification/blob/master/schemas/v2.0/schema.json)   | [v2.0 docs](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md)
+| OpenAPI 3.0.x | [v3.0.x schema](https://github.com/OAI/OpenAPI-Specification/blob/master/schemas/v3.0/schema.json) | [v3.0.3 docs](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.3.md)
 
 All schemas are kept up-to-date with the latest official definitions via an automated CI/CD job. 🤖📦
 
