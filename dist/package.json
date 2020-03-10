@@ -1,0 +1,39 @@
+{
+  "name": "openapi-schemas",
+  "version": "X.X.X",
+  "description": "JSON Schemas for every version of the OpenAPI Specification",
+  "keywords": [
+    "openapi",
+    "open-api",
+    "swagger",
+    "oas",
+    "api",
+    "rest",
+    "json",
+    "specification",
+    "definition",
+    "schema"
+  ],
+  "author": {
+    "name": "James Messinger",
+    "url": "https://jamesmessinger.com"
+  },
+  "license": "MIT",
+  "homepage": "https://apitools.dev/openapi-schemas",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/APIDevTools/openapi-schemas.git"
+  },
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "dependencies": {
+    "@apidevtools/openapi-schemas": "X.X.X"
+  }
+}
