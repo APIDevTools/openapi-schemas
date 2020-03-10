@@ -6,8 +6,8 @@
 [![Coverage Status](https://coveralls.io/repos/github/APIDevTools/openapi-schemas/badge.svg?branch=master)](https://coveralls.io/github/APIDevTools/openapi-schemas)
 [![Dependencies](https://david-dm.org/APIDevTools/openapi-schemas.svg)](https://david-dm.org/APIDevTools/openapi-schemas)
 
-[![npm](https://img.shields.io/npm/v/openapi-schemas.svg)](https://www.npmjs.com/package/openapi-schemas)
-[![License](https://img.shields.io/npm/l/openapi-schemas.svg)](LICENSE)
+[![npm](https://img.shields.io/npm/v/@apidevtools/openapi-schemas.svg)](https://www.npmjs.com/package/@apidevtools/openapi-schemas)
+[![License](https://img.shields.io/npm/l/@apidevtools/openapi-schemas.svg)](LICENSE)
 
 
 
@@ -23,10 +23,10 @@ All schemas are kept up-to-date with the latest official definitions via an auto
 
 Installation
 --------------------------
-You can install `openapi-schemas` via [npm](https://docs.npmjs.com/about-npm/).
+You can install OpenAPI Schemas via [npm](https://docs.npmjs.com/about-npm/).
 
 ```bash
-npm install openapi-schemas
+npm install @apidevtools/openapi-schemas
 ```
 
 
@@ -37,7 +37,7 @@ Usage
 The default export contains all OpenAPI Specification versions:
 
 ```javascript
-const openapi = require("openapi-schemas");
+const openapi = require("@apidevtools/openapi-schemas");
 
 console.log(openapi.v1);    // { $schema, id, properties, definitions, ... }
 console.log(openapi.v2);    // { $schema, id, properties, definitions, ... }
@@ -47,7 +47,7 @@ console.log(openapi.v3);    // { $schema, id, properties, definitions, ... }
 Or you can import the specific version(s) that you need:
 
 ```javascript
-const { openapiV1, openapiV2, openapiV3 } = require("openapi-schemas");
+const { openapiV1, openapiV2, openapiV3 } = require("@apidevtools/openapi-schemas");
 
 console.log(openapiV1);    // { $schema, id, properties, definitions, ... }
 console.log(openapiV2);    // { $schema, id, properties, definitions, ... }
@@ -57,7 +57,7 @@ console.log(openapiV3);    // { $schema, id, properties, definitions, ... }
 You can use a JSON Schema validator such as [Z-Schema](https://www.npmjs.com/package/z-schema) or [AJV](https://www.npmjs.com/package/ajv) to validate OpenAPI definitions against the specification.
 
 ```javascript
-const { openapiV3 } = require("openapi-schemas");
+const { openapiV3 } = require("@apidevtools/openapi-schemas");
 const ZSchema = require("z-schema");
 
 // Create a ZSchema validator
@@ -92,7 +92,7 @@ To build the project locally on your computer:
 
 License
 --------------------------
-openapi-schemas is 100% free and open-source, under the [MIT license](LICENSE). Use it however you want.
+OpenAPI Schemas is 100% free and open-source, under the [MIT license](LICENSE). Use it however you want.
 
 
 
