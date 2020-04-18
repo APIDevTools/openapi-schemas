@@ -74,7 +74,7 @@ validator.validate(openapiDefinition, openapiV3);
 
 Contributing
 --------------------------
-Contributions, enhancements, and bug-fixes are welcome!  [File an issue](https://github.com/APIDevTools/openapi-schemas/issues) on GitHub and [submit a pull request](https://github.com/APIDevTools/openapi-schemas/pulls).
+Contributions, enhancements, and bug-fixes are welcome!  [Open an issue](https://github.com/APIDevTools/openapi-schemas/issues) on GitHub and [submit a pull request](https://github.com/APIDevTools/openapi-schemas/pulls).
 
 #### Building
 To build the project locally on your computer:
