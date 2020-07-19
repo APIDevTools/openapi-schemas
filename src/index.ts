@@ -1,4 +1,4 @@
-// tslint:disable: no-var-requires no-require-imports
+/* eslint-disable @typescript-eslint/no-var-requires, @typescript-eslint/no-require-imports */
 import { JsonSchema } from "./json-schema";
 export { JsonSchema };
 
@@ -27,10 +27,10 @@ export const openapi = {
 };
 
 // Export `openapi` as the default export
-// tslint:disable: no-default-export
 export default openapi;
 
 // CommonJS default export hack
+/* eslint-env commonjs */
 if (typeof module === "object" && typeof module.exports === "object") {
-  module.exports = Object.assign(module.exports.default, module.exports);  // tslint:disable-line: no-unsafe-any
+  module.exports = Object.assign(module.exports.default, module.exports);
 }
