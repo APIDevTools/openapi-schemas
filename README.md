@@ -1,7 +1,7 @@
 # OpenAPI Specification Schemas
 
-[![Cross-Platform Compatibility](https://apitools.dev/img/badges/os-badges.svg)](https://github.com/APIDevTools/openapi-schemas/blob/master/.github/workflows/CI-CD.yaml)
-[![Build Status](https://github.com/APIDevTools/openapi-schemas/workflows/CI-CD/badge.svg?branch=master)](https://github.com/APIDevTools/openapi-schemas/blob/master/.github/workflows/CI-CD.yaml)
+[![Cross-Platform Compatibility](https://apitools.dev/img/badges/os-badges.svg)](https://github.com/APIDevTools/openapi-schemas/actions)
+[![Build Status](https://github.com/APIDevTools/openapi-schemas/workflows/CI-CD/badge.svg?branch=master)](https://github.com/APIDevTools/openapi-schemas/actions)
 
 [![Coverage Status](https://coveralls.io/repos/github/APIDevTools/openapi-schemas/badge.svg?branch=master)](https://coveralls.io/github/APIDevTools/openapi-schemas)
 [![Dependencies](https://david-dm.org/APIDevTools/openapi-schemas.svg)](https://david-dm.org/APIDevTools/openapi-schemas)
