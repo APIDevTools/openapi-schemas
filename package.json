@@ -1,6 +1,6 @@
 {
   "name": "@apidevtools/openapi-schemas",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "JSON Schemas for every version of the OpenAPI Specification",
   "keywords": [
     "openapi",
