@@ -19,6 +19,8 @@ This package contains [**the official JSON Schemas**](https://github.com/OAI/Ope
 | Swagger 1.2   | [v1.2 schema](https://github.com/OAI/OpenAPI-Specification/tree/master/schemas/v1.2)               | [v1.2 docs](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/1.2.md)
 | Swagger 2.0   | [v2.0 schema](https://github.com/OAI/OpenAPI-Specification/blob/master/schemas/v2.0/schema.json)   | [v2.0 docs](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md)
 | OpenAPI 3.0.x | [v3.0.x schema](https://github.com/OAI/OpenAPI-Specification/blob/master/schemas/v3.0/schema.json) | [v3.0.3 docs](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.3.md)
+| OpenAPI 3.1.x | [v3.1.x schema](https://github.com/OAI/OpenAPI-Specification/blob/master/schemas/v3.1/schema.json) | [v3.1.0 docs](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md)
+
 
 All schemas are kept up-to-date with the latest official definitions via an automated CI/CD job. 🤖📦
 
@@ -45,29 +47,31 @@ const openapi = require("@apidevtools/openapi-schemas");
 console.log(openapi.v1);    // { $schema, id, properties, definitions, ... }
 console.log(openapi.v2);    // { $schema, id, properties, definitions, ... }
 console.log(openapi.v3);    // { $schema, id, properties, definitions, ... }
+console.log(openapi.v31);    // { $schema, id, properties, definitions, ... }
 ```
 
 Or you can import the specific version(s) that you need:
 
 ```javascript
-const { openapiV1, openapiV2, openapiV3 } = require("@apidevtools/openapi-schemas");
+const { openapiV1, openapiV2, openapiV3, openapiV31 } = require("@apidevtools/openapi-schemas");
 
 console.log(openapiV1);    // { $schema, id, properties, definitions, ... }
 console.log(openapiV2);    // { $schema, id, properties, definitions, ... }
 console.log(openapiV3);    // { $schema, id, properties, definitions, ... }
+console.log(openapiV31);    // { $schema, id, properties, definitions, ... }
 ```
 
 You can use a JSON Schema validator such as [Z-Schema](https://www.npmjs.com/package/z-schema) or [AJV](https://www.npmjs.com/package/ajv) to validate OpenAPI definitions against the specification.
 
 ```javascript
-const { openapiV3 } = require("@apidevtools/openapi-schemas");
+const { openapiV31 } = require("@apidevtools/openapi-schemas");
 const ZSchema = require("z-schema");
 
 // Create a ZSchema validator
 let validator = new ZSchema();
 
 // Validate an OpenAPI definition against the OpenAPI v3.0 specification
-validator.validate(openapiDefinition, openapiV3);
+validator.validate(openapiDefinition, openapiV31);
 ```
 
 
